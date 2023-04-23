@@ -1,0 +1,29 @@
+[8,20,-2,4,-6]
+
+
+let i=1 arr[i] numberToInsert =20
+
+let j=i-1  arr[j] =>8 
+[8,20,-2,4,-6]
+
+arr[j+1]=numberToInsert    means arr[1]=numberToInsert => 20
+
+//
+i=2 arr[i] numberToInsert =-2
+
+j=i-1=>1  arr[j] =>20
+since arr[j] => 20 >numberToInsert => -2
+
+arr[j+1] =>arr[2] =arr[j]
+[8,20,20,4,-6]
+j=j-1 => means j=0 
+
+since arr[j]=>8 >numberToInsert => -2
+arr[j+1]=arr[j]
+[8,8,20,4,-6]
+
+and then out of the while loop 
+then we have j=-1
+arr[j+1]=numberToInsert
+
+
